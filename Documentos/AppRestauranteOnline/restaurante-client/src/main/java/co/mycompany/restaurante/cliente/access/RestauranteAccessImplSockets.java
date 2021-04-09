@@ -270,6 +270,8 @@ public class RestauranteAccessImplSockets implements IRestauranteAccess {
     private Restaurante jsonToRestaurante(String jsonRestaurante) {
 
         Gson gson = new Gson();
+        //{"id":1,"nombre":"LA COSECHA","direcccion":"Cra 11 # 3-45","ciudad":"Popayan","telefono":"800001","menuSemanal":,"plato":{"id":0,"precio":0,"cantidad":0}
+        //{"id":1,"nombre":"LA COSECHA","direcccion":"Cra 11 # 3-45","ciudad":"Popayan","telefono":"800001"}
         Restaurante restaurante = gson.fromJson(jsonRestaurante, Restaurante.class);
         return restaurante;
 

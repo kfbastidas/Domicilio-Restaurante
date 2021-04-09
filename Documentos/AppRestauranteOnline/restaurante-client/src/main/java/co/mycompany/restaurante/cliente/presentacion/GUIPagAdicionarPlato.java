@@ -471,7 +471,13 @@ public class GUIPagAdicionarPlato extends JFrame {
             } else {
                 btnEliminarcomponenteMenu.setEnabled(false);
             }
-            String descripcion = service.getPlato(restaurante.getId()).getDescripcion();
+            String descripcion = "";
+            try {
+                descripcion = service.getPlato(restaurante.getId()).getDescripcion();
+            } catch (Exception e) {
+                
+            }
+            
             txtDescripcion.setText(descripcion);
             lblImagen.setText("");
             lblImagen.setIcon(getImageIcon(getImagen("src/main/java/resources/plato"+restaurante.getId()+dia.name()+"1.jpg"), 300, 300));
