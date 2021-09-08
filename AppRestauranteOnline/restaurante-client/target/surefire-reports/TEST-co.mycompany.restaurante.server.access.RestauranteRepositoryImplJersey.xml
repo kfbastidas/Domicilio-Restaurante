@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" time="4.501" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" time="14.432" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="13.0.2+8"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kevit\Documents\GitHub\Domicilio-Restaurante-2Spring\AppRestauranteOnline\restaurante-client"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\kevit\Documents\GitHub\Domicilio-Restaurante\AppRestauranteOnline\restaurante-client"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="test" value="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\kevit\Documents\GitHub\Domicilio-Restaurante-2Spring\AppRestauranteOnline\restaurante-client"/>
+    <property name="user.dir" value="C:\Users\kevit\Documents\GitHub\Domicilio-Restaurante\AppRestauranteOnline\restaurante-client"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="13.0.2+8"/>
     <property name="os.arch" value="amd64"/>
@@ -60,17 +60,17 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponenteExistente" time="1.852"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetPlato" time="0.149"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddPlatoNoExistente" time="0.162"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponenteNoExistente" time="0.018"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddComponenteExistente" time="0.092"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddPlatoExistente" time="0.046"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddMenuComponentes" time="1.577"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetMenuComponentes" time="0.13"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddRestauranteNoExistente" time="0.082"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testUpdatePlatoNoExistente" time="0.133"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testUpdatePlatoExistente" time="0.125"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddComponenteNoExistente" time="0.117"/>
-  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponentes" time="0.018"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponenteExistente" time="4.934"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetPlato" time="0.447"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddPlatoNoExistente" time="0.152"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponenteNoExistente" time="0.025"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddComponenteExistente" time="0.174"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddPlatoExistente" time="0.055"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddMenuComponentes" time="7.603"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetMenuComponentes" time="0.192"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddRestauranteNoExistente" time="0.301"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testUpdatePlatoNoExistente" time="0.239"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testUpdatePlatoExistente" time="0.119"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testAddComponenteNoExistente" time="0.17"/>
+  <testcase classname="co.mycompany.restaurante.server.access.RestauranteRepositoryImplJersey" name="testGetComponentes" time="0.021"/>
 </testsuite>
